@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Modal</title>
+    <link href="styles.css" rel="stylesheet" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="sample">
+      <button data-modal-target="#modal">Click Me</button>
+      <div id="result"></div>
+    <div class="modal" id="modal">
+      <div class="modal-body">Are you sure you want to continue?</div>
+      <div class="modal-button">
+      <button data-close-button id="truebtn">Yes</button>
+      <button data-close-button id="falsebtn">Cancel</button>
+      </div>
+    </div>
+    <div id="overlay"></div>
+  </body>
+</html> 
+
